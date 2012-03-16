@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss"><name>betternotifications/css/index.css</name></action>
+        </reference>
+        <reference name="notifications">
+            <action method="unsetChild"><name>notification_toolbar</name></action>
+            <block type="adminhtml/notification_toolbar" name="notification_toolbar" as="notification_toolbar" acl="system/adminnotification/show_toolbar" template="betternotifications/toolbar.phtml" />
+        </reference>
+    </default>
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<config>
+
+    <modules>
+        <TBT_BetterNotifications>
+            <version>0.0.1.0</version>
+        </TBT_BetterNotifications>
+    </modules>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <betternotifications>
+                    <file>betternotifications.xml</file>
+                </betternotifications>
+            </updates>
+        </layout>
+    </adminhtml>
+
+    <admin>
+        <routers>
+            <adminnotification>
+                <use>admin</use>
+                <args>
+                    <module>TBT_BetterNotifications</module>
+                    <frontName>adminnotification</frontName>
+                </args>
+            </adminnotification>
+        </routers>
+    </admin>
+
+</config>
