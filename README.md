@@ -12,21 +12,10 @@ should probably be dealt with by a merchant and not simply closed.
 INSTALL
 =======
 
-1. You need to have jQuery installed and loaded in your admin.
-1.1. I had to do this manually as the Mxperts_Jquery module didn't seem to 
-     support jQuery in the admin.
-
-2. For OSX / Linux users:
-2.1. cd into dev/shell/ and run install.sh
-
-For PC users
-============
-What's the matter with you, get a Mac already.
-
+    modman clone https://github.com/sparcksoft/Better-Notifications notifications
 
 TODO
 ====
 1. If there are additional unread notifications available after the latest one is
 closed, load them up after the latest one is closed.
-2. Implement jQuery loading.
 

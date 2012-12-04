@@ -4,14 +4,21 @@
 
     <modules>
         <TBT_BetterNotifications>
-            <version>0.0.1.0</version>
+            <active>true</active>
+            <codePool>community</codePool>
+        </TBT_BetterNotifications>
+    </modules>
+
+    <modules>
+        <TBT_BetterNotifications>
+            <version>2.0.1.0</version>
         </TBT_BetterNotifications>
     </modules>
 
     <adminhtml>
         <layout>
             <updates>
-                <betternotifications>
+                <betternotifications module="TBT_BetterNotifications">
                     <file>betternotifications.xml</file>
                 </betternotifications>
             </updates>
